@@ -1,0 +1,157 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{19, 25}, {200, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "price",
+          "flex" : "W",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "50BB392E-EF6B-448B-9B23-61794AD9FEF0",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "0",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{19, 65}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "input",
+          "flex" : "W",
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "A24A9568-433A-4C0D-8F33-C7363146CE78",
+          "alignment" : "right",
+          "text" : "0",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{69, 104}, {82, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "hito",
+          "flex" : "L",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "B81C133A-2D98-473C-9A19-1EC387E007A9",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "人数",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{159, 104}, {61, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "people",
+          "flex" : "L",
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "8DD80AC2-53D5-4EF4-B4C0-C3EE10BDE73F",
+          "alignment" : "center",
+          "text" : "2",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{39, 166}, {166, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "add",
+          "flex" : "W",
+          "frame" : "{{87, 152}, {80, 32}}",
+          "title" : "加算",
+          "uuid" : "E76D86E3-C4D1-4E8B-84F3-90DC12BA6755",
+          "class" : "Button",
+          "background_color" : "RGBA(0.584314,0.819608,1.000000,1.000000)",
+          "font_bold" : true,
+          "name" : "add",
+          "font_size" : 16
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{39, 216}, {166, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calc_A",
+          "flex" : "W",
+          "frame" : "{{87, 152}, {80, 32}}",
+          "title" : "割り勘1",
+          "uuid" : "E76D86E3-C4D1-4E8B-84F3-90DC12BA6755",
+          "class" : "Button",
+          "background_color" : "RGBA(0.603922,0.929412,0.698039,1.000000)",
+          "font_bold" : true,
+          "name" : "calc_A",
+          "font_size" : 16
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{39, 265}, {166, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calc_B",
+          "flex" : "W",
+          "frame" : "{{87, 152}, {80, 32}}",
+          "title" : "割り勘2",
+          "uuid" : "E76D86E3-C4D1-4E8B-84F3-90DC12BA6755",
+          "class" : "Button",
+          "background_color" : "RGBA(0.603922,0.929412,0.698039,1.000000)",
+          "font_bold" : true,
+          "name" : "calc_B",
+          "font_size" : 16
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {253, 335}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "Warikanapp",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
